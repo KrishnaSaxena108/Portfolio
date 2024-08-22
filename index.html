@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            text-align: center;
+            background-color: #1f242d;
+            color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0ef;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            background-color: #0ef;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1em;
+        }
+
+        nav ul li a {
+            color: black;
+            background-color: #0ef;
+            text-decoration: none;
+        }
+
+        #hero {
+            text-align: center;
+            padding-top: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        #hero img {
+            position: absolute;
+            right: 100px;
+            top: 150px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+
+        #hero p {
+            font-size: 2.5em;
+        }
+
+        #about {
+            padding: 2em;
+        }
+
+        #projects {
+            padding: 2em;
+        }
+
+        #projects h1 {
+            font-size: 2.5em;
+        }
+
+        #projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #projects ul li {
+            margin-bottom: 2em;
+        }
+
+        #contact {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #0ef;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        #img1,
+        #img2 {
+            max-width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+
+        #Profile {
+            position: relative;
+            bottom: 100px;
+            right: 200px;
+            max-width: 200px;
+            height: 100px;
+            border-radius: 20px;
+            border: 2px solid white;
+            float: right;
+        }
+
+        #P1,
+        #P2 {
+            border: 2px solid white;
+            width: 300px;
+            border-radius: 20px;
+            margin: 70px 40px 70px 40px;
+            background-color: #0ef;
+        }
+
+        #P1 img {
+            width: 50%;
+            height: 150px;
+            border-radius: 20px;
+        }
+
+        h3 {
+            background-color: #0ef;
+            color: black;
+        }
+
+        #P1 p,
+        #P2 p {
+            background-color: #0ef;
+            margin: 20px;
+            color: black;
+        }
+
+        #P2 img {
+            width: 50%;
+            height: 175px;
+            border-radius: 20px;
+        }
+
+        .container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        footer p {
+            background-color: #0ef;
+            color: black;
+        }
+
+        #designation {
+            color: #0ef;
+        }
+
+        #about p {
+            color: white;
+            font-size: 30px;
+            border-radius: 20px;
+            padding: 20px;
+            word-spacing: 10px;
+        }
+
+        #contact p {
+            color: white;
+            font-size: 25px;
+            border-radius: 20px;
+            word-spacing: 5px;
+        }
+
+        #contact h1 {
+            color: white;
+            font-size: 2.5em;
+            padding: 20px;
+        }
+
+        #img3 {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <p>Hi, I'm Krishna Saxena,
+            <p id="designation"> a Software Engineer</p>
+            </p>
+            <img id="Profile" src="Professional.avif" alt="Profile Picture">
+        </section>
+        <section id="about">
+            <p> I am a <span id="designation">Skilled Software Engineer</span> with expertise in various programming
+                languages and technologies. I have experience in developing web applications, mobile apps, and software
+                solutions. My skills include <span id="designation"> HTML, CSS, JavaScript, Python, Java, C/C++ </span>
+                and more. I am passionate about
+                <span id="designation">Problem-Solving </span>and creating efficient and user-friendly software
+                solutions.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="container">
+                <div id="P1">
+                    <h3>DUMMY HACKER TERMINAL</h3>
+                    <a href="https://hacker-terminal-puce.vercel.app/">
+                        <img id="img1" src="Project1.avif" alt="Project Image">
+                    </a>
+                    <p>A fun and interactive simulation of a hacker's command-line interface. Customize your prompt,
+                        execute hacking-themed commands, and explore the world of hacking without real-world risks.</p>
+                </div>
+                <div id="P2">
+                    <h3>THE MIDNIGHT BREW</h3>
+                    <a href="https://the-midnight-brew.vercel.app/">
+                        <img id="img2" src="Project2.jpg" alt="Project Image">
+                    </a></a>
+                    <p>Your virtual coffeehouse. Enjoy fresh brews, pastries, sandwiches, and more. Perfect for a quick
+                        pick-me-up or a cozy workspace. Join our online community today!</p>
+                </div>
+                <div id="P1">
+                    <h3>FLASH NEWS</h3>
+                    <a href="https://flash-news-nu.vercel.app/">
+                        <img id="img1" src="project3.jpg" alt="Project Image">
+                    </a>
+                    <p>The website delivers timely updates on current events, ensuring you're always in the
+                        know. From world headlines to local news, we've got you covered. Experience fast-paced, reliable
+                        news delivered straight to your device.</p>
+                </div>
+                </ul>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <p>Email: example@example.com</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Address: 123 Main Street, City, State, Country</p>
+            <a href="www.linkedin.com">
+                <img id="img3" src="Linkedin.png" alt="LinkedIn">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Krishna Saxena . All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    </div>
+</body>
+
+</html>
